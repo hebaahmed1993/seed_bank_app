@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898791648221",
+    "project_id": "seed-bank-ly",
+    "storage_bucket": "seed-bank-ly.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898791648221:android:c211272bb382a817e92434",
+        "android_client_info": {
+          "package_name": "com.example.untitled1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP4WfCGO8PT5qiysqdLhbZorrmRauS0Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
