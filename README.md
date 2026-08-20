@@ -1,17 +1,23 @@
-# untitled1
+ SeedBank Mobile App
 
-A new Flutter project.
+> **Status:** 🚧 Under Active Development (قيد التطوير المستمر)
 
-## Getting Started
+The official customer mobile application for the **SeedBank** ecosystem, built with **Flutter** using Clean Architecture, Riverpod, and Dartz for functional error handling. It allows users to browse agricultural products, manage shopping carts, maintain multiple delivery addresses, and sync favorites in real-time.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🌟 Key Features
+* **Authentication:** Secure user authentication via Firebase Auth.
+* **Server-Side Pagination:** Optimized product catalog browsing with Firestore cursors.
+* **Shopping Cart & Real-time Favorites:** Seamless product synchronization and management.
+* **Multiple Addresses Management:** Support for managing shipping addresses with region validation.
+* **Functional Error Handling:** Strict implementation of `Either` (Dartz) across data layers.
+* **State Management:** Fully reactive UI managed by **Flutter Riverpod** with granular states.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗️ Architecture & Standards
+* **Architecture:** Feature-First & Clean Architecture (`data`, `domain`, `presentation`).
+* **UI/UX & Components:** Reusable components from `core/widgets` (CustomTable, CustomTextFormField, CustomSnackBar).
+* **Routing:** Declarative routing using **GoRouter**.
+
